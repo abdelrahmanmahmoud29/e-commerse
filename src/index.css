@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Satisfy&display=swap');
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Satisfy', cursive;
+  background-color: #f2f2f2;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+nav a{
+  text-decoration: none;
+  color: white;
+  transition: all .6s;
+}
+nav{
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+}
+nav a:hover{
+  color: green;
+}
+.log-list{
+ 
+  display: flex;
+  width: 10%;
+  justify-content: flex-end;
+}
+.nav-container h2{
+  font-size: 40px;
+}
+.nav-container h2::before{
+  content: 'E';
+  color: green;
+ font-weight: 700;
+ font-family: 'Caveat', cursive;
+ 
+
+}
+.nav-container{
+  width: 90%;
+ 
+}
+@media only screen and (max-width: 600px){
+  nav{
+  width: 117%;
+  justify-content: space-between !important;
+  }
+  .Mainslider{
+    width: 117%;
+   
+  }
+  .headear{
+  display: none;
+    
+  }
+  .responsive-header h2{
+    font-size: 70px;
+  }
+  .responsive-header {
+    display: block !important;
+   
+  }
+  .dropdown{
+    display: inline !important;
+  }
+  .fa-bars{
+    font-size: 30px;
+    margin-top: 7px;
+    color: white;
+  }
+  .responsive{
+    display: none !important;
+  }
+.res-nav{
+  
+  background-color: blue;
+}
+Footer{
+  width: 117%;
+}
+.log-res{
+  width: 75% !important;
+}
+}
+/*//////////////////////////////NavBar/////////////////////////////////////////////////*/
+.products-dv{
+  transition: all .4s;
+}
+.products-dv:hover {
+transform: scale(1.1);
+}
+.item img{
+  height: 250px;
+ transition: all 1s;
+}
+.item:hover img {
+  box-shadow: 0px 0px 10px gray
+}
+.add-btn{
+  font-family: sans-serif;
+  background: green;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: black;
+  border: none;
+  opacity: 0;
+  transition: all 1s;
+  transform: translateY(100%);
+ 
+}
+.add-btn2{
+  font-family: sans-serif;
+  background: green;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: black;
+  border: none;
+}
+.item:hover .add-btn{
+  opacity: 1;
+  transform: translateY(-5%)
+}
+.products a{
+  text-decoration: none;
+  color: black;
+}
+.slide{
+height: 400px;
+}
+.fa-house-fire{
+  color: orange;
+}
+.homebg{
+  background-color: #f2f2f2;
+}
+.headear{
+  text-align: center;
+  position: relative;
+}
+.headear h2{
+  font-size: 90px;
+  padding-bottom: 50px;
+  font-weight: 900;
+  opacity: .3;
+}
+.headear h3{
+  font-weight: 900;
+  font-size: 90px;
+  position: absolute;
+  top: 3%;
+  left: 27.8%; 
+}
+/* /////////////////////////////FeaturedProducts/////////////////////////////////////////*/
+.sub-btn{
+  border: none;
+background-color: green;
+}
+.updateBtns{
+  border: 1px solid green;
+  color: green;
+}
+.totalCartPrice{
+  color: green;
+}
+.cartbg{
+  background-color: lightgray;
+}
+.span-price{
+  color: green;
+}
+.remove{
+  background-color: rgb(175, 5, 5);
+}
+.checkout a{
+  text-decoration: none;
+  color: white;
+}
+.checkout{
+  border: none;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+.social-list{
+  font-size: 23px;
+  width: 50px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: all .4s;
+}
+.social-list:hover{
+ 
+}
+footer{
+  margin-top: 40px;
+  padding: 5px;
+background-color: 	 black;
+color: white;
+}
+footer h1{
+  font-size: 60px;
+}
+footer h1::before{
+  content: 'E';
+  color: green;
+ font-weight: 700;
+ font-family: 'Caveat', cursive;
+ 
+
+}
+/* ////////////////////////////////////////Footer///////////////////////////////////////// */
+.errPage{
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-repeat: no-repeat;
+margin-bottom: 0;
+  background-image: url(assets/404-error-page.png)
+}
+
+
